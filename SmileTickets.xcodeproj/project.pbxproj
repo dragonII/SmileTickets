@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		2F8B55D51A84B14100633C13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8B55D41A84B14100633C13 /* main.m */; };
 		2F8B55D81A84B14100633C13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8B55D71A84B14100633C13 /* AppDelegate.m */; };
-		2F8B55DB1A84B14100633C13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8B55DA1A84B14100633C13 /* ViewController.m */; };
+		2F8B55DB1A84B14100633C13 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8B55DA1A84B14100633C13 /* MainViewController.m */; };
 		2F8B55DE1A84B14100633C13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F8B55DC1A84B14100633C13 /* Main.storyboard */; };
 		2F8B55E01A84B14100633C13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F8B55DF1A84B14100633C13 /* Images.xcassets */; };
 		2F8B55E31A84B14100633C13 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F8B55E11A84B14100633C13 /* LaunchScreen.xib */; };
 		2F8B55EF1A84B14100633C13 /* SmileTicketsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8B55EE1A84B14100633C13 /* SmileTicketsTests.m */; };
+		2F8B55FA1A84B5CB00633C13 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8B55F91A84B5CB00633C13 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		2F8B55D41A84B14100633C13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2F8B55D61A84B14100633C13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2F8B55D71A84B14100633C13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2F8B55D91A84B14100633C13 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2F8B55DA1A84B14100633C13 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F8B55D91A84B14100633C13 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2F8B55DA1A84B14100633C13 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		2F8B55DD1A84B14100633C13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F8B55DF1A84B14100633C13 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2F8B55E21A84B14100633C13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2F8B55E81A84B14100633C13 /* SmileTicketsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmileTicketsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F8B55ED1A84B14100633C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F8B55EE1A84B14100633C13 /* SmileTicketsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmileTicketsTests.m; sourceTree = "<group>"; };
+		2F8B55F81A84B5CB00633C13 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		2F8B55F91A84B5CB00633C13 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +86,10 @@
 			children = (
 				2F8B55D61A84B14100633C13 /* AppDelegate.h */,
 				2F8B55D71A84B14100633C13 /* AppDelegate.m */,
-				2F8B55D91A84B14100633C13 /* ViewController.h */,
-				2F8B55DA1A84B14100633C13 /* ViewController.m */,
+				2F8B55D91A84B14100633C13 /* MainViewController.h */,
+				2F8B55DA1A84B14100633C13 /* MainViewController.m */,
+				2F8B55F81A84B5CB00633C13 /* DetailViewController.h */,
+				2F8B55F91A84B5CB00633C13 /* DetailViewController.m */,
 				2F8B55DC1A84B14100633C13 /* Main.storyboard */,
 				2F8B55DF1A84B14100633C13 /* Images.xcassets */,
 				2F8B55E11A84B14100633C13 /* LaunchScreen.xib */,
@@ -219,9 +224,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F8B55DB1A84B14100633C13 /* ViewController.m in Sources */,
+				2F8B55DB1A84B14100633C13 /* MainViewController.m in Sources */,
 				2F8B55D81A84B14100633C13 /* AppDelegate.m in Sources */,
 				2F8B55D51A84B14100633C13 /* main.m in Sources */,
+				2F8B55FA1A84B5CB00633C13 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +349,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SmileTickets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +361,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SmileTickets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
