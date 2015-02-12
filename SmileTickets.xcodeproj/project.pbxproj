@@ -15,6 +15,11 @@
 		2F8B55E31A84B14100633C13 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F8B55E11A84B14100633C13 /* LaunchScreen.xib */; };
 		2F8B55EF1A84B14100633C13 /* SmileTicketsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8B55EE1A84B14100633C13 /* SmileTicketsTests.m */; };
 		2F8B55FA1A84B5CB00633C13 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8B55F91A84B5CB00633C13 /* DetailViewController.m */; };
+		2F8E60E61A8D02050030519A /* DetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8E60E41A8D02050030519A /* DetailTableViewCell.m */; };
+		2F8E60E71A8D02050030519A /* DetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F8E60E51A8D02050030519A /* DetailTableViewCell.xib */; };
+		2F8E60EB1A8D071E0030519A /* AccountInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8E60E91A8D071E0030519A /* AccountInfoTableViewCell.m */; };
+		2F8E60EC1A8D071E0030519A /* AccountInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F8E60EA1A8D071E0030519A /* AccountInfoTableViewCell.xib */; };
+		2F8E60EF1A8D0BDA0030519A /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8E60EE1A8D0BDA0030519A /* AboutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +48,14 @@
 		2F8B55EE1A84B14100633C13 /* SmileTicketsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmileTicketsTests.m; sourceTree = "<group>"; };
 		2F8B55F81A84B5CB00633C13 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		2F8B55F91A84B5CB00633C13 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		2F8E60E31A8D02050030519A /* DetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTableViewCell.h; sourceTree = "<group>"; };
+		2F8E60E41A8D02050030519A /* DetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewCell.m; sourceTree = "<group>"; };
+		2F8E60E51A8D02050030519A /* DetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailTableViewCell.xib; sourceTree = "<group>"; };
+		2F8E60E81A8D071E0030519A /* AccountInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountInfoTableViewCell.h; sourceTree = "<group>"; };
+		2F8E60E91A8D071E0030519A /* AccountInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountInfoTableViewCell.m; sourceTree = "<group>"; };
+		2F8E60EA1A8D071E0030519A /* AccountInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountInfoTableViewCell.xib; sourceTree = "<group>"; };
+		2F8E60ED1A8D0BDA0030519A /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		2F8E60EE1A8D0BDA0030519A /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,10 +99,18 @@
 			children = (
 				2F8B55D61A84B14100633C13 /* AppDelegate.h */,
 				2F8B55D71A84B14100633C13 /* AppDelegate.m */,
+				2F8E60E31A8D02050030519A /* DetailTableViewCell.h */,
+				2F8E60E41A8D02050030519A /* DetailTableViewCell.m */,
+				2F8E60E51A8D02050030519A /* DetailTableViewCell.xib */,
+				2F8E60E81A8D071E0030519A /* AccountInfoTableViewCell.h */,
+				2F8E60E91A8D071E0030519A /* AccountInfoTableViewCell.m */,
+				2F8E60EA1A8D071E0030519A /* AccountInfoTableViewCell.xib */,
 				2F8B55D91A84B14100633C13 /* MainViewController.h */,
 				2F8B55DA1A84B14100633C13 /* MainViewController.m */,
 				2F8B55F81A84B5CB00633C13 /* DetailViewController.h */,
 				2F8B55F91A84B5CB00633C13 /* DetailViewController.m */,
+				2F8E60ED1A8D0BDA0030519A /* AboutViewController.h */,
+				2F8E60EE1A8D0BDA0030519A /* AboutViewController.m */,
 				2F8B55DC1A84B14100633C13 /* Main.storyboard */,
 				2F8B55DF1A84B14100633C13 /* Images.xcassets */,
 				2F8B55E11A84B14100633C13 /* LaunchScreen.xib */,
@@ -206,6 +227,8 @@
 			files = (
 				2F8B55DE1A84B14100633C13 /* Main.storyboard in Resources */,
 				2F8B55E31A84B14100633C13 /* LaunchScreen.xib in Resources */,
+				2F8E60E71A8D02050030519A /* DetailTableViewCell.xib in Resources */,
+				2F8E60EC1A8D071E0030519A /* AccountInfoTableViewCell.xib in Resources */,
 				2F8B55E01A84B14100633C13 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +248,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F8B55DB1A84B14100633C13 /* MainViewController.m in Sources */,
+				2F8E60EB1A8D071E0030519A /* AccountInfoTableViewCell.m in Sources */,
+				2F8E60E61A8D02050030519A /* DetailTableViewCell.m in Sources */,
+				2F8E60EF1A8D0BDA0030519A /* AboutViewController.m in Sources */,
 				2F8B55D81A84B14100633C13 /* AppDelegate.m in Sources */,
 				2F8B55D51A84B14100633C13 /* main.m in Sources */,
 				2F8B55FA1A84B5CB00633C13 /* DetailViewController.m in Sources */,
@@ -422,6 +448,7 @@
 				2F8B55F41A84B14100633C13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F8B55F51A84B14100633C13 /* Build configuration list for PBXNativeTarget "SmileTicketsTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +457,7 @@
 				2F8B55F71A84B14100633C13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
